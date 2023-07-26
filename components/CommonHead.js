@@ -30,7 +30,7 @@ const CommonHead = ({ meta, children }) => {
       )}
       {BLOG.SEO_BAIDU_SITE_VERIFICATION && (
         <meta
-          name="baidu-site-verification" 
+          name="baidu-site-verification"
           content={BLOG.SEO_BAIDU_SITE_VERIFICATION}
         />
       )}
