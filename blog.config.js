@@ -286,8 +286,12 @@ const BLOG = {
   ANALYTICS_ACKEE_DOMAIN_ID:
       process.env.NEXT_PUBLIC_ANALYTICS_ACKEE_DOMAIN_ID || '', // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
 
+  // 谷歌站长平台的站点验证
   SEO_GOOGLE_SITE_VERIFICATION:
       process.env.NEXT_PUBLIC_SEO_GOOGLE_SITE_VERIFICATION || 'F4-npXVZEZvZeOko-CgyZ6MsJHP_862vIzwsxjyAhhs', // Remove the value or replace it with your own google site verification code
+  // 百度站长平台的站点验证
+  SEO_BAIDU_SITE_VERIFICATION:
+      process.env.SEO_BAIDU_SITE_VERIFICATION || 'codeva-wOELQo6LJq',
 
   // <---- 站点统计
 
