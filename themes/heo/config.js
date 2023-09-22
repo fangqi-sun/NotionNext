@@ -1,21 +1,24 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-06-26', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
-  NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+  NOTICE_BAR:[
+    
   ],
+  //NOTICE_BAR: [
+  //  { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+  //  { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+  //],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'TANGLY1024.COM',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_1: '分享软件',
+  HERO_TITLE_2: '收集好用神器',
+  HERO_TITLE_3: 'fangyingsat.top',
+  HERO_TITLE_4: '方应',
+  HERO_TITLE_5: '欲穷千里目，更上一层楼。',
+  HERO_TITLE_LINK: 'https://www.fangyingsat.top',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -29,14 +32,14 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🔍 网络神器收集者',
+    '🤝 热爱分享与帮助',
+    '🏃 盛年不重来',
+    '🏠 一日难再晨',
+    '🤖️ 及时宜自勉',
+    '🧱 岁月不待人'
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://www.fangyingsat.top', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -98,7 +101,7 @@ const CONFIG = {
     }
   ],
 
-  SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   SOCIAL_CARD_TITLE_1: '交流频道',
   SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   SOCIAL_CARD_TITLE_3: '点击加入社群',
